@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+.nuxt/
+dist/
+.output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment variables
+.env
+.env.*.local
+
+# Nuxt generate folder
+/static/
+
+# Lockfiles (choose based on your package manager)
+package-lock.json
+yarn.lock
+
+# Optional: Add exceptions for specific node modules (if needed)
+!node_modules/dat.gui
+!node_modules/three
+!node_modules/nuxt
+!node_modules/vue
+!node_modules/lil-gui
